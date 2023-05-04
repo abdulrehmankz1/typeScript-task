@@ -19,3 +19,16 @@ console.log(data)
 // tuples
 let user: [string, number, boolean] = ["Ali", 2, true]
 console.log(user);
+
+// enum
+enum Size { Small = 1, Medium, Large };
+let mySize: Size = Size.Small;
+console.log(mySize);
+
+// function
+function calculateTax(income: number): number {
+    if (income < 5000)
+        return income * 1.2;
+    return income * 1.3;
+}
+calculateTax(1000);
