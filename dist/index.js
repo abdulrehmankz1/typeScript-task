@@ -27,4 +27,12 @@ function calculateTax(income) {
     return income * 1.3;
 }
 calculateTax(1000);
+let employee = {
+    id: 1,
+    name: 'Shameel',
+    retire: (date) => {
+        console.log(date);
+    }
+};
+console.log(employee);
 //# sourceMappingURL=index.js.map

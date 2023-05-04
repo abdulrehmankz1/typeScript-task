@@ -32,3 +32,18 @@ function calculateTax(income: number): number {
     return income * 1.3;
 }
 calculateTax(1000);
+
+// object with function and aliases 
+type Employee = {
+    id: number,
+    name: string,
+    retire: (date: Date) => void
+}
+let employee: Employee = {
+    id: 1,
+    name: 'Shameel',
+    retire: (date: Date) => {
+        console.log(date)
+    }
+};
+console.log(employee);
