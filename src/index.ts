@@ -12,3 +12,10 @@ let level;
 //     console.log(document)
 // }
 
+// array
+let data: string[] = ["Shameel", "Usama", "AbdulRehman"]
+console.log(data)
+
+// tuples
+let user: [string, number, boolean] = ["Ali", 2, true]
+console.log(user);
