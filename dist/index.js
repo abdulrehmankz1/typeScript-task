@@ -41,4 +41,9 @@ data = true;
 console.log(data);
 let dataType = "string";
 dataType = false;
+console.log(dataType);
+let textBox = {
+    drag: () => { },
+    resize: () => { }
+};
 //# sourceMappingURL=index.js.map

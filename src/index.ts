@@ -48,7 +48,7 @@ let employee: Employee = {
 };
 console.log(employee);
 
-// union type
+// union types
 let data: string | number | boolean = "AbdulRehman";
 data = 2023;
 data = true;
@@ -56,3 +56,17 @@ console.log(data);
 
 let dataType: string | boolean = "string";
 dataType = false;
+console.log(dataType);
+
+// intersection types
+type Draggable = {
+    drag: () => void
+}
+type Resizable = {
+    resize: () => void
+}
+type UIWidget = Draggable & Resizable;
+let textBox: UIWidget = {
+    drag: () => {},
+    resize: () => {}
+}
