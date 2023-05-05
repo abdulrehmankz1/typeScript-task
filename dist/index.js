@@ -46,4 +46,5 @@ let textBox = {
     drag: () => { },
     resize: () => { }
 };
+let quantity = 50;
 //# sourceMappingURL=index.js.map

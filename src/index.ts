@@ -70,3 +70,7 @@ let textBox: UIWidget = {
     drag: () => {},
     resize: () => {}
 }
+
+// literal types
+type Quantity = 50 | 100
+let quantity: Quantity = 50;
