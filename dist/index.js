@@ -8,8 +8,8 @@ let sales = 123456789;
 let course = 'TypeScript';
 let is_published = true;
 let level;
-let data = ["Shameel", "Usama", "AbdulRehman"];
-console.log(data);
+let studentsData = ["Shameel", "Usama", "AbdulRehman"];
+console.log(studentsData);
 let user = ["Ali", 2, true];
 console.log(user);
 var Size;
@@ -35,4 +35,8 @@ let employee = {
     }
 };
 console.log(employee);
+let data = "AbdulRehman";
+data = 2023;
+data = true;
+console.log(data);
 //# sourceMappingURL=index.js.map

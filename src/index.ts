@@ -13,8 +13,8 @@ let level;
 // }
 
 // array
-let data: string[] = ["Shameel", "Usama", "AbdulRehman"]
-console.log(data)
+let studentsData: string[] = ["Shameel", "Usama", "AbdulRehman"]
+console.log(studentsData)
 
 // tuples
 let user: [string, number, boolean] = ["Ali", 2, true]
@@ -48,4 +48,8 @@ let employee: Employee = {
 };
 console.log(employee);
 
-
+// union type
+let data: string | number | boolean = "AbdulRehman";
+data = 2023;
+data = true;
+console.log(data);
