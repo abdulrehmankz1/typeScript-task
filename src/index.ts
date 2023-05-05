@@ -67,10 +67,19 @@ type Resizable = {
 }
 type UIWidget = Draggable & Resizable;
 let textBox: UIWidget = {
-    drag: () => {},
-    resize: () => {}
+    drag: () => { },
+    resize: () => { }
 }
 
 // literal types
 type Quantity = 50 | 100
 let quantity: Quantity = 50;
+
+// Null type
+function greet(name: string | null) {
+    if (name) {
+        console.log(name.toUpperCase());
+    } else console.log("please enter your name")
+}
+greet(null);
+
