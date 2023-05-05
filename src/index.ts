@@ -47,3 +47,5 @@ let employee: Employee = {
     }
 };
 console.log(employee);
+
+
